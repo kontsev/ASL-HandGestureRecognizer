@@ -1,1 +1,2 @@
 # ASL-HandGestureRecognizer
+This project uses an ASL dataset (https://www.kaggle.com/datasets/mrgeislinger/asl-rgb-depth-fingerspelling-spelling-it-out) with hand gestures used by blind people to communicate. In this project, I am training a neural network that could predict the gestures that a person would show in a webcam. When you turn on the webcam using the OpenCV and Mediapipe libraries, a hand is detected on the webcam, it is indicated in a frame, and the gesture shown by the hand is predicted by a trained neural network and displayed on the screen.
